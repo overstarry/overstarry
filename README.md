@@ -14,9 +14,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-![](https://visitor-badge.glitch.me/badge?page_id=overstarry.overstarry)
 
 -->
 
 
+![](https://visitor-badge.glitch.me/badge?page_id=overstarry.overstarry)
 
