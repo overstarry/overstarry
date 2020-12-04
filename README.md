@@ -20,4 +20,4 @@ Here are some ideas to get you started:
 
 ![](https://visitor-badge.glitch.me/badge?page_id=overstarry.overstarry)
 
-[！[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/？username = overstarry&layout = compact)]（https://github.com/anuraghazra/github-readme-统计信息）
+[！[Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username = overstarry&layout = compact)]（https://github.com/anuraghazra/github-readme-统计信息）
