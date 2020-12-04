@@ -4,4 +4,4 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=overstarry.overstarry)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=overstarry&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![](https://github-readme-stats.vercel.app/api/wakatime?username=overstarry&layout=compact&hide_border=true)](https://github.com/overstarry)
