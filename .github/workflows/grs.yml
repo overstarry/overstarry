@@ -8,17 +8,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     permissions:
-      contents: write  # 必须：允许写入仓库
+      contents: write
     
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 拉取完整历史，避免 rebase 问题
+          fetch-depth: 0
+          token: ${{ secrets.TOKEN }}
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v2  # 升级到 v2
+        uses: readme-tools/github-readme-stats-action@v2
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true
@@ -31,5 +31,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update README cards" || exit 0
-          git pull --rebase origin ${GITHUB_REF_NAME}  # 先拉取远程更新
+          git pull --rebase origin master
           git push
